@@ -44,8 +44,8 @@ def space():  # put application's code here
 def mean():
     url = "https://drive.google.com/uc?export=download&id=1yM0a4CSf0iuAGOGEljdb7qcWyz82RBxl"
     get_download_file(url)
-    mean = average_value_from_csv(name_file="output")
-    return f"<p><span>{mean}</span></p>"
+    mean_ = average_value_from_csv(name_file="output")
+    return f"<p><span>{mean_}</span></p>"
     # put application's code here
 
 
